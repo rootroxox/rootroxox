@@ -3,15 +3,16 @@
 <p><em>Software Engineering Student at <a href="https://www.cankaya.edu.tr/">Çankaya University</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/rootroxox/count.svg" />
+</p>
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/ayberk_saygi?label=Follow)
 [![Linkedin: Ayberk Saygı](https://img.shields.io/badge/-ayberk-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ayberk-saygı-0640811a4/)](https://www.linkedin.com/in/ayberk-saygı-0640811a4/)
 [![](https://img.shields.io/badge/Gmail-ayberk2574@gmail.com-red)](mailto:ayberk2574@gmail.com)
 ![GitHub followers](https://img.shields.io/github/followers/rootroxox?label=Follow&style=social)
 
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/rootroxox/count.svg" />
-</p>
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 

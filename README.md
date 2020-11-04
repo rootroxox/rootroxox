@@ -1,6 +1,15 @@
 ### Hey there 👋
 
-Here are some ideas to get you started:
+A little more about me...
 
-https://camo.githubusercontent.com/31f3f66bc1c56636612c1f5fed11d6ff238aeab7/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f56674344417a634b767352364f4d307557672f67697068792e676966
+const ayberk = {
+    pronouns: "He" | "Him",
+    code: ["Java", "C", "C++", "Python"],
+    askMeAbout: ["Desktop Dev", "Tech", "CyberSec"],
+    architecture: ["Progressive desktop applications", "Linux system administration"],
+    currentProject: "I am developing a hospital management information system using Java and MariaDB",
+    funFact: "There are two ways to write error-free programs; only the third one works"
+};
+
+
 -->

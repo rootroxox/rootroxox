@@ -33,7 +33,7 @@ const ayberk = {
 
 ---
 <!--START_SECTION:waka-->
-**I'm good in this areas: 🐤** 
+**I have knowledge in these areas: 🐤** 
 
 ```text
 💻 C/C++        ███████████████████☐☐   8/10 

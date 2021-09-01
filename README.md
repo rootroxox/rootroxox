@@ -1,5 +1,4 @@
 <h2>Hey, I'm Ayberk Saygı! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 <p><em>Software Engineering Student at <a href="https://www.cankaya.edu.tr/">Çankaya University</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
@@ -45,7 +44,7 @@ const ayberk = {
 ```
 
 <br/>
-
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rootroxox&langs_count=10)](https://github.com/rootroxox/github-readme-stats)
 
 <br><br>

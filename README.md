@@ -43,8 +43,10 @@ const ayberk = {
 💻 Metasploit Framework     ██████████████☐☐   8/10
 ```
 
-<br/>
+
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+
+<br/>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rootroxox&langs_count=10)](https://github.com/rootroxox/github-readme-stats)
 
 <br><br>

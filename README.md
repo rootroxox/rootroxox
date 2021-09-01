@@ -31,7 +31,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=animeshbhakat&show_icons=true&include_all_commits=true&theme=radical" alt="Animesh's github stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&include_all_commits=true&theme=radical" alt="Ayberk's Github Stats" />
 
  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&show_icons=true&locale=en&layout=compact&theme=radical&line_height=0" />
 </p> 

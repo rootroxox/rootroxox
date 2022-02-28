@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Real Time Custom Hand Gestures Detection System**
 
-- 🌱 I’m currently learning **Darknet Framework, OpenCV Library, C++, Automata Theory**
+- 🌱 I’m currently learning **Darknet Framework, OpenCV Library, Automata Theory**
 
 - 👨‍💻 All of my projects are available at [https://github.com/rootroxox?tab=repositories](https://github.com/rootroxox?tab=repositories)
 

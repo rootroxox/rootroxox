@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ayberk Saygı!</h1>
 <h3 align="center">Software Engineering Student at Çankaya University</h3>
 
-- 🔭 I’m currently working on **Real Time Custom Hand Gestures Detection System**
+- 🔭 I’m currently working on **SRGAN: Super Resolution Generative Adversarial Networks**
 
 - 🌱 I’m currently learning **Darknet Framework, OpenCV Library, Automata Theory**
 

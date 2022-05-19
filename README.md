@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **SRGAN: Super Resolution Generative Adversarial Networks**
 
-- 🌱 I’m currently learning **Darknet Framework, OpenCV Library, Automata Theory**
+- 🌱 I’m currently learning **Darknet Framework, OpenCV Library, Super Resolution**
 
 - 👨‍💻 All of my projects are available at [https://github.com/rootroxox?tab=repositories](https://github.com/rootroxox?tab=repositories)
 

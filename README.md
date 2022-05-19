@@ -9,7 +9,7 @@
 
 - 📝 I regularly record programming/tech videos on [https://www.youtube.com/channel/UC0GwTXvSheFR7HVxHVwiZUg](https://www.youtube.com/channel/UC0GwTXvSheFR7HVxHVwiZUg)
 
-- 💬 Ask me about **C/C++, Computer Vision, Java**
+- 💬 Ask me about **C/C++, Computer Vision, Java, Python, Data Structures & Algorithms**
 
 - 📫 How to reach me **ayberk2574@gmail.com**
 

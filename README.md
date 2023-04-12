@@ -83,6 +83,7 @@ CREATE TABLE DisasterVictimReports (
 
 CREATE TABLE SupplyRequests (
     SupplyNo INT PRIMARY KEY IDENTITY(1,1),
+    RequestingPersonNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
     SupplyType NVARCHAR(50) NOT NULL,
     SupplyDetail NVARCHAR(255),
     SupplyQuantity INT NOT NULL,

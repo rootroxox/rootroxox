@@ -37,10 +37,8 @@
 
 
 CREATE DATABASE DisasterManagement;
-GO
 
 USE DisasterManagement;
-GO
 
 CREATE TABLE Users (
     NationalID VARCHAR(11) PRIMARY KEY,

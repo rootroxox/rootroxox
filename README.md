@@ -36,25 +36,68 @@
 </p> 
 
 
-1.	Entities:
+CREATE DATABASE DisasterManagement;
+GO
 
-•	Users
-•	Disasters
-•	DisasterVictimReports
-•	SupplyRequests
-•	AidRequests
+USE DisasterManagement;
+GO
 
-2.	Attributes:
+CREATE TABLE Users (
+    NationalID VARCHAR(11) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL,
+    Email NVARCHAR(100) UNIQUE,
+    Password NVARCHAR(255) NOT NULL,
+    Gender NVARCHAR(10) NOT NULL,
+    Age INT NOT NULL
+);
 
-•	Users: NationalID (PK), FirstName, LastName, PhoneNumber, Email, Password, Gender, Age
-•	Disasters: DisasterReportNo (PK), ReportingPersonNationalID (FK), DisasterType, DisasterIntensity, DamageType, City, District, Neighborhood, AddressDescription, StatusInfo, GoogleMapsLink
-•	DisasterVictimReports: ReportNo (PK), FirstName, LastName, VictimNationalID (FK), Gender, Age, City, District, Neighborhood, StatusInfo, GoogleMapsLink, Priority
-•	SupplyRequests: SupplyNo (PK), RequestingPersonNationalID (FK), SupplyType, SupplyDetail, SupplyQuantity, Stock, SupplyStatus
-•	AidRequests: TrackingNo (PK), VictimNationalID (FK), VictimFirstName, VictimLastName, DisasterType, RequestStatus
+CREATE TABLE Disasters (
+    DisasterReportNo INT PRIMARY KEY IDENTITY(1,1),
+    ReportingPersonNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    DisasterType NVARCHAR(50) NOT NULL,
+    DisasterIntensity NVARCHAR(50),
+    DamageType NVARCHAR(50),
+    City NVARCHAR(50) NOT NULL,
+    District NVARCHAR(50) NOT NULL,
+    Neighborhood NVARCHAR(50),
+    AddressDescription NVARCHAR(255),
+    StatusInfo NVARCHAR(255),
+    GoogleMapsLink NVARCHAR(255)
+);
 
-3.	Relationships:
+CREATE TABLE DisasterVictimReports (
+    ReportNo INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    VictimNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    Gender NVARCHAR(10) NOT NULL,
+    Age INT NOT NULL,
+    City NVARCHAR(50) NOT NULL,
+    District NVARCHAR(50) NOT NULL,
+    Neighborhood NVARCHAR(50),
+    StatusInfo NVARCHAR(255),
+    GoogleMapsLink NVARCHAR(255),
+    Priority INT NOT NULL
+);
 
-•	The "ReportingPersonNationalID" attribute in the Disasters entity is related to the "NationalID" attribute (PK) in the Users entity.
-•	The "VictimNationalID" attribute (FK) in the DisasterVictimReports entity is related to the "NationalID" attribute (PK) in the Users entity.
-•	The "RequestingPersonNationalID" attribute (FK) in the SupplyRequests entity is related to the "NationalID" attribute (PK) in the Users entity.
-•	The "VictimNationalID" attribute (FK) in the AidRequests entity is related to the "NationalID" attribute (PK) in the Users entity.
+CREATE TABLE SupplyRequests (
+    SupplyNo INT PRIMARY KEY IDENTITY(1,1),
+    RequestingPersonNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    SupplyType NVARCHAR(50) NOT NULL,
+    SupplyDetail NVARCHAR(255),
+    SupplyQuantity INT NOT NULL,
+    Stock INT NOT NULL,
+    SupplyStatus NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE AidRequests (
+    TrackingNo INT PRIMARY KEY IDENTITY(1,1),
+    VictimNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    VictimFirstName NVARCHAR(50) NOT NULL,
+    VictimLastName NVARCHAR(50) NOT NULL,
+    DisasterType NVARCHAR(50) NOT NULL,
+    RequestStatus NVARCHAR(50) NOT NULL
+);
+

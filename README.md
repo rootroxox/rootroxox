@@ -35,7 +35,7 @@
 <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p> 
 
-
+´´´
 CREATE DATABASE DisasterManagement;
 
 USE DisasterManagement;
@@ -98,4 +98,4 @@ CREATE TABLE AidRequests (
     DisasterType NVARCHAR(50) NOT NULL,
     RequestStatus NVARCHAR(50) NOT NULL
 );
-
+´´´

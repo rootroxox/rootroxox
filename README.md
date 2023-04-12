@@ -36,3 +36,25 @@
 </p> 
 
 
+1.	Entities:
+
+•	Users
+•	Disasters
+•	DisasterVictimReports
+•	SupplyRequests
+•	AidRequests
+
+2.	Attributes:
+
+•	Users: NationalID (PK), FirstName, LastName, PhoneNumber, Email, Password, Gender, Age
+•	Disasters: DisasterReportNo (PK), ReportingPersonNationalID (FK), DisasterType, DisasterIntensity, DamageType, City, District, Neighborhood, AddressDescription, StatusInfo, GoogleMapsLink
+•	DisasterVictimReports: ReportNo (PK), FirstName, LastName, VictimNationalID (FK), Gender, Age, City, District, Neighborhood, StatusInfo, GoogleMapsLink, Priority
+•	SupplyRequests: SupplyNo (PK), RequestingPersonNationalID (FK), SupplyType, SupplyDetail, SupplyQuantity, Stock, SupplyStatus
+•	AidRequests: TrackingNo (PK), VictimNationalID (FK), VictimFirstName, VictimLastName, DisasterType, RequestStatus
+
+3.	Relationships:
+
+•	The "ReportingPersonNationalID" attribute in the Disasters entity is related to the "NationalID" attribute (PK) in the Users entity.
+•	The "VictimNationalID" attribute (FK) in the DisasterVictimReports entity is related to the "NationalID" attribute (PK) in the Users entity.
+•	The "RequestingPersonNationalID" attribute (FK) in the SupplyRequests entity is related to the "NationalID" attribute (PK) in the Users entity.
+•	The "VictimNationalID" attribute (FK) in the AidRequests entity is related to the "NationalID" attribute (PK) in the Users entity.

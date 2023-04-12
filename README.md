@@ -35,4 +35,66 @@
 <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p> 
 
-https://onedrive.live.com/view.aspx?resid=642698A1136F1C9E!105&ithint=file%2cdocx&authkey=!AF8LO7cfHG9f7vM
+CREATE DATABASE DisasterManagement;
+GO
+
+USE DisasterManagement;
+GO
+
+CREATE TABLE Users (
+    NationalID VARCHAR(11) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL,
+    Email NVARCHAR(100) UNIQUE,
+    Password NVARCHAR(255) NOT NULL,
+    Gender NVARCHAR(10) NOT NULL,
+    Age INT NOT NULL
+);
+
+CREATE TABLE Disasters (
+    DisasterReportNo INT PRIMARY KEY IDENTITY(1,1),
+    ReportingPersonNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    DisasterType NVARCHAR(50) NOT NULL,
+    DisasterIntensity NVARCHAR(50),
+    DamageType NVARCHAR(50),
+    City NVARCHAR(50) NOT NULL,
+    District NVARCHAR(50) NOT NULL,
+    Neighborhood NVARCHAR(50),
+    AddressDescription NVARCHAR(255),
+    StatusInfo NVARCHAR(255),
+    GoogleMapsLink NVARCHAR(255)
+);
+
+CREATE TABLE DisasterVictimReports (
+    ReportNo INT PRIMARY KEY IDENTITY(1,1),
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    VictimNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    Gender NVARCHAR(10) NOT NULL,
+    Age INT NOT NULL,
+    City NVARCHAR(50) NOT NULL,
+    District NVARCHAR(50) NOT NULL,
+    Neighborhood NVARCHAR(50),
+    StatusInfo NVARCHAR(255),
+    GoogleMapsLink NVARCHAR(255),
+    Priority INT NOT NULL
+);
+
+CREATE TABLE SupplyRequests (
+    SupplyNo INT PRIMARY KEY IDENTITY(1,1),
+    SupplyType NVARCHAR(50) NOT NULL,
+    SupplyDetail NVARCHAR(255),
+    SupplyQuantity INT NOT NULL,
+    Stock INT NOT NULL,
+    SupplyStatus NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE AidRequests (
+    TrackingNo INT PRIMARY KEY IDENTITY(1,1),
+    VictimNationalID VARCHAR(11) FOREIGN KEY REFERENCES Users(NationalID),
+    VictimFirstName NVARCHAR(50) NOT NULL,
+    VictimLastName NVARCHAR(50) NOT NULL,
+    DisasterType NVARCHAR(50) NOT NULL,
+    RequestStatus NVARCHAR(50) NOT NULL
+);

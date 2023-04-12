@@ -34,6 +34,3 @@
 <p align = "center"> 
 <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p> 
-
-
-https://www.figma.com/file/Ny6rWpWiwzQ2lSehmCNIfD/Crowd-Sourced-Damage-Assessment-System?node-id=0-1&t=1AcOvjrU3Ex0sPx8-0

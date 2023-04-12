@@ -34,3 +34,5 @@
 <p align = "center"> 
 <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p> 
+
+https://onedrive.live.com/view.aspx?resid=642698A1136F1C9E!105&ithint=file%2cdocx&authkey=!AF8LO7cfHG9f7vM

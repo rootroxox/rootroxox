@@ -34,19 +34,3 @@
 <p align = "center"> 
 <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p> 
-
-Database Used: Microsoft SQL Server
-
-Reasons for using Microsoft SQL Server in the project:
-
-Scalability: SQL Server provides a highly scalable platform that can handle a large number of transactions and manage substantial growth in data volume over time.
-
-Performance: With its efficient query processing and optimization techniques, SQL Server ensures fast query execution and overall system performance, which is crucial for time-sensitive applications.
-
-Security: SQL Server has built-in security features, such as encryption, authentication, and authorization, ensuring that the database remains protected from unauthorized access and data breaches.
-
-Integration: Microsoft SQL Server integrates seamlessly with other Microsoft technologies, such as Azure, .NET framework, and Power BI, providing a comprehensive ecosystem for application development and reporting.
-
-Tooling: SQL Server Management Studio (SSMS) is a powerful and user-friendly tool that simplifies database management, development, and administration tasks, streamlining the overall development process.
-
-Support: Microsoft provides extensive support and resources, including detailed documentation, online forums, and regular updates, ensuring that the database remains up-to-date with the latest features and security patches.

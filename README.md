@@ -61,7 +61,3 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
-</p>
-

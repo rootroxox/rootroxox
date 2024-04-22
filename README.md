@@ -52,10 +52,10 @@
   <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/>
 </p>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a align="center" href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=rootroxox" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a align="center" href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootroxox&layout=compact&langs_count=8&card_width=320" />
 </a>
 

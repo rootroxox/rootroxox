@@ -53,10 +53,15 @@
 </p>
 
 <p align="center">
-  <img width="50%" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=radical" alt="Ayberk's Github Stats"/>
-  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&theme=radical" alt="Github Streak Stats"/>
+  <a href="https://github.com/rootroxox">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=radical" alt="Ayberk's Github Stats"/>
+  </a>
+  <a href="https://github.com/rootroxox">
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&theme=radical" alt="Github Streak Stats"/>
+  </a>
 </p>
 
 <p align="center">
   <img src="https://activity-graph.herokuapp.com/graph?username=rootroxox&theme=redical">
 </p>
+

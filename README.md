@@ -57,7 +57,7 @@
     <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=radical" alt="Ayberk's Github Stats"/>
   </a>
   <a href="https://github.com/rootroxox">
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&theme=radical" alt="Github Streak Stats"/>
+    <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&theme=radical" alt="Github Streak Stats"/>
   </a>
 </p>
 

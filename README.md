@@ -52,11 +52,18 @@
   <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/>
 </p>
 
-<a href="https://github.com/rootroxox/github-readme-stats">
-  <img height=200 align="center" src="[https://github-readme-stats.vercel.app/api?username=anuraghazra](https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=dark#gh-dark-mode-only)" />
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
 </a>
-<a href="https://github.com/rootroxox/convoychat">
-  <img height=200 align="center" src="[https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320](https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/rootroxox/github-readme-stats#gh-light-mode-only)" />
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
+</a>
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
 </a>
 
 [![Ayberk's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/rootroxox/github-readme-stats#gh-dark-mode-only)

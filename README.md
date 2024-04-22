@@ -57,7 +57,7 @@
     <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=rootroxox" />
   </a>
   <a href="https://github.com/anuraghazra/convoychat">
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootroxox&layout=donut&langs_count=8&card_width=500&card_length=200" />
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootroxox&layout=donut&langs_count=8&card_width=300" />
   </a>
 </div>
 

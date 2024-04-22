@@ -52,12 +52,5 @@
   <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/>
 </p>
 
-<p align="center">
-  <a href="https://github.com/rootroxox">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true&theme=radical" alt="Ayberk's Github Stats"/>
-  </a>
-  <a href="https://github.com/rootroxox">
-    <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=rootroxox&theme=radical" alt="Github Streak Stats"/>
-  </a>
-</p>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
 

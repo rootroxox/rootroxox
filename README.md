@@ -57,7 +57,7 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rootroxox&show_icons=true" />
   </a>
   <a href="https://github.com/rootroxox">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootroxox&layout=compact&langs_count=8" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootroxox&layout=compact&langs_count=8&card-width=300" />
   </a>
 </div>
 

@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ayberk Saygı</h1>
-<h3 align="center">Software Engineer at Turkish Aerospace Industries</h3>
+<h3 align="center">Software Design Engineer at Turkish Aerospace Industries</h3>
 
 <p align="center">
   I'm currently focusing on enhancing image quality using AI with <strong>Super Resolution Generative Adversarial Networks (SRGAN)</strong>.

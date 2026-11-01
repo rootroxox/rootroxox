@@ -19,7 +19,7 @@ I hold an M.Sc. in Computer Engineering and am currently a Ph.D. student in Comp
 
 Developing a multi-tenant PLM platform independently, with a primary focus on architecture, database schema and backend services, and AI-assisted React UI development when needed. The platform focuses on product structures, change management, workflows and lifecycle management, with per-tenant authentication through Keycloak.
 
-**Stack:** Java 21, Spring Boot 3, React 18, TypeScript, PostgreSQL, RabbitMQ, Elasticsearch, Redis, MinIO, Camunda and Keycloak.
+**Stack:** Java 21, Spring Boot 3, PostgreSQL, RabbitMQ, Elasticsearch, Redis, MinIO, Camunda, Keycloak, React 18 and TypeScript.
 
 ### Kestrel — Evidence-Gated Aerial Video Super-Resolution
 

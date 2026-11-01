@@ -15,11 +15,19 @@ I hold an M.Sc. in Computer Engineering and am currently a Ph.D. student in Comp
 
 ## Selected projects
 
-### Independent SaaS PLM Platform — in development
+### Atlas PLM — Enterprise Product Lifecycle Management
 
-Developing a multi-tenant PLM platform independently, with a primary focus on architecture, database schema and backend services, and AI-assisted React UI development when needed. The platform focuses on product structures, change management, workflows and lifecycle management, with per-tenant authentication through Keycloak.
+Independently developing Atlas PLM, an enterprise Product Lifecycle Management platform for discrete manufacturing and Aerospace & Defense.
 
-**Stack:** Java 21, Spring Boot 3, PostgreSQL, RabbitMQ, Elasticsearch, Redis, MinIO, Camunda, Keycloak, React 18 and TypeScript.
+The platform is centered on a governed digital thread connecting requirements, items and parts, EBOM/MBOM, controlled documents, ECR/ECO changes, workflows and approvals, quality, and programs.
+
+I own the backend architecture, domain and data modeling, REST/OpenAPI APIs, workflow orchestration, access control and deployment. The modular Java/Spring Boot backend is designed around database-per-tenant isolation, PostgreSQL row-level security, Keycloak identity, RBAC/ABAC authorization and an append-only audit trail.
+
+Designed for multi-tenant SaaS, dedicated/private-cloud and self-hosted or air-gapped deployments. The platform is under active development.
+
+Backend/platform stack: Java 21, Spring Boot 3, Spring Security, PostgreSQL, Keycloak, Flowable (BPMN), OpenSearch, Valkey and MinIO.
+
+[Product overview](https://atlas.ilteron.com/)
 
 ### Kestrel — Evidence-Gated Aerial Video Super-Resolution
 
@@ -44,7 +52,7 @@ My M.Sc. thesis investigates video super-resolution for drone surveillance foota
 - **PLM and ERP:** Teamcenter, 3DEXPERIENCE, PLM-ERP integration
 - **ML and AI:** PyTorch, CUDA, FP16, torch.compile, ONNX, TensorRT, optical flow
 - **Mobile internship experience:** Flutter, Dart
-- **Supporting frontend familiarity:** React 18, TypeScript; AI-assisted implementation when needed.
+- **Frontend:** React 18, TypeScript
 
 ## Education and teaching
 

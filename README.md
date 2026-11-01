@@ -1,6 +1,6 @@
 # Ayberk Saygı
 
-**Software Engineer at Turkish Aerospace Industries (TUSAŞ)**  
+**Backend Software Engineer at Turkish Aerospace Industries (TUSAŞ)**  
 Backend Development · Java & Spring Boot · Distributed Systems · PLM-ERP Integration
 
 Backend-focused software engineer with 4+ years of experience building backend services, distributed systems and enterprise integrations. I work across architecture, data modeling, implementation, deployment and coordination with partner teams in environments with strict security and reliability requirements.
@@ -25,9 +25,11 @@ I own the backend architecture, domain and data modeling, REST/OpenAPI APIs, wor
 
 Designed for multi-tenant SaaS, dedicated/private-cloud and self-hosted or air-gapped deployments. The platform is under active development.
 
-Backend/platform stack: Java 21, Spring Boot 3, Spring Security, PostgreSQL, Keycloak, Flowable (BPMN), OpenSearch, Valkey and MinIO.
+Current backend foundation: Java 21, Spring Boot 3, Spring Security, PostgreSQL, Keycloak, Flowable (BPMN), OpenSearch, Valkey, MinIO and Flyway.
 
-[Product overview](https://atlas.ilteron.com/)
+Component roles: Flowable handles BPMN workflows, OpenSearch provides search and analytics, Valkey provides caching, and Keycloak brokers identity. This describes the current foundation; the skills below also cover broader engineering experience.
+
+[Product overview](https://atlas.ilteron.com/) · [Architecture and project overview](https://github.com/rootroxox/atlas-plm-showcase)
 
 ### Kestrel — Evidence-Gated Aerial Video Super-Resolution
 
@@ -35,7 +37,11 @@ My M.Sc. thesis investigates video super-resolution for drone surveillance foota
 
 - Improved on bicubic upscaling by **+2.48 dB PSNR** and **38% lower LPIPS** on compressed, noisy aerial video.
 - Performed on par with BasicVSR++ trained under the same conditions, with more stable output over time.
-- Built a lightweight version that is **14× smaller**, exportable to TensorRT, and achieves **26 FPS for 720p to 1440p on an RTX 4090**.
+- Built a lightweight version that is **14× smaller**, exportable to TensorRT, and achieves **26 FPS for 720p to 1440p (×2) on one RTX 4090**.
+
+The ×4 research configuration and its 24 FPS streaming design target are distinct from the measured ×2 lightweight result.
+
+[Research approach and evaluation overview](https://github.com/rootroxox/kestrel-showcase)
 
 **Stack:** Python, PyTorch, SpyNet optical flow, CUDA, FP16, torch.compile, ONNX and TensorRT.
 
@@ -43,12 +49,12 @@ My M.Sc. thesis investigates video super-resolution for drone surveillance foota
 
 - **Languages:** Java 21, Python, C, C++, C#, SQL
 - **Backend and APIs:** Spring Boot, Spring Security, Hibernate, JPA, REST APIs, OpenAPI, .NET, ASP.NET MVC, Flask
-- **Data:** PostgreSQL, Redis, Elasticsearch, MinIO, schema design, data migrations, ETL pipelines
-- **Messaging and workflows:** RabbitMQ, Kafka, Camunda, BPMN, asynchronous messaging
+- **Data:** PostgreSQL, Redis, Valkey, Elasticsearch, OpenSearch, MinIO, schema design, data migrations, ETL pipelines
+- **Messaging and workflows:** RabbitMQ, Kafka, Camunda, Flowable, BPMN, asynchronous messaging
 - **Architecture:** Microservices, distributed systems, event-driven architecture, cross-network integration
 - **Security:** OAuth2, JWT, Keycloak, authentication and authorization, Secure SDLC, network segmentation
 - **Testing:** JUnit, Mockito, Testcontainers
-- **Build and operations:** Maven, Gradle, Docker, Kubernetes, CI/CD, Git, Linux, Windows Server, ELK Stack
+- **Build and operations:** Maven, Gradle, Docker, Kubernetes, CI/CD, Git, Flyway, Linux, Windows Server, ELK Stack
 - **PLM and ERP:** Teamcenter, 3DEXPERIENCE, PLM-ERP integration
 - **ML and AI:** PyTorch, CUDA, FP16, torch.compile, ONNX, TensorRT, optical flow
 - **Mobile internship experience:** Flutter, Dart
